@@ -1,0 +1,70 @@
+toko-kosmetik/
+│
+├── index.html
+├── styles.css
+└── script.js
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Kosmetik</title>
+    <link rel="stylesheet" href="ririn.css">
+</head>
+<body>
+    <header>
+        <h1>Toko Kosmetik</h1>
+        <nav>
+            <ul>
+                <li><a href="#produk">Produk</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="produk">
+            <h2>Produk Kami</h2>
+            <div class="produk-container">
+                <div class="produk">
+                    <img src="liptint.png" alt="Produk 1">
+                    <h3>Lip Tint Natural Glow</h3>
+                    <p>Tahan 10 jam.</p>
+                    <p>Tidak transfer dan waterproof.</p>
+                    <p>Warna natural dengan aroma buah yang segar. </p>
+                    <button onclick="tambahKeKeranjang('Produk 1')">Tambah ke Keranjang</button>
+                </div>
+                <div class="produk">
+                    <img src="loosepowder.png" alt="Produk 2">
+                    <h3>Loose powder</h3>
+                    <p>Mengontrol minyak hingga 12 jam.</p>
+                    <p>Tidak menyumbat pori-pori.</p>
+                    <p>Cocok untuk semua jenis kulit.</p>
+                    <button onclick="tambahKeKeranjang('Produk 2')">Tambah ke Keranjang</button>
+                </div>
+                <div class="produk">
+                    <img src="liquid blush.png" alt="Produk 3">
+                    <h3>Liquid blush</h3>
+                    <p>Memberikan efek rona pipi natural yang tahan lama.</p>
+                    <p>Formula ringan, tidak lengket dan mudah menyatu dengan kulit.</p>
+                    <p>Diperkaya dengan kandungan pelembab untuk menjaga kulit tetap segar.</p>
+                    <button onclick="tambahKeKeranjang('Produk 3')">Tambah ke Keranjang</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="kontak">
+            <h2>Kontak Kami</h2>
+            <p>Email: info@tokokosmetik.com</p>
+            <p>Telepon: 0123-456-789</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Toko Kosmetik. Semua hak dilindungi.</p>
+    </footer>
+
+    <script src="rina.js"></script>
+</body>
+</html>
